@@ -21,7 +21,7 @@ body .boxs .box .description span{display:block;margin: 5px 0px;}
 body .boxs .box .description h3, span{text-align: center;}
             /* stars */
 body .boxs .box .description .stars{display: flex;justify-content: center;align-items: center;margin-bottom:10px;}
-body .boxs .box .description .stars a{color:transparent;-webkit-text-stroke: 1px var(--color); margin: 0px 2.5px;}
+body .boxs .box .description .stars a{color:transparent;-webkit-text-stroke: 1px var(--color); margin: 0px 2.5px;cursor: pointer;}
 body .boxs .box .description .btns{display: flex;justify-content: center;margin: 0px auto 25px auto;}
 body .boxs .box .description .btns input{background-color:var(--color);color: #fff;padding: 7px;border-radius: 10px;border: none;font-weight: bold;cursor: pointer;}
 body .boxs .box .description .btns input:first-child{margin-right: 10px;}
