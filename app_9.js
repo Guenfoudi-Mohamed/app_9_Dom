@@ -32,9 +32,9 @@ function addEvent(index){
     let mouseClick;    
 
     for(let i = 0;i<num;i++){
-        mouseOver = mouseover.bind(box[index].children[1].children[2].children[0],index,i); 
-        mouseOut = mouseout.bind(box[index].children[1].children[2].children[0],index,i); 
-        mouseClick = mouseclick.bind(box[index].children[1].children[2].children[0],index,i); 
+        mouseOver = mouseover.bind(box[index].children[1].children[2].children[i],index,i); 
+        mouseOut = mouseout.bind(box[index].children[1].children[2].children[i],index,i); 
+        mouseClick = mouseclick.bind(box[index].children[1].children[2].children[i],index,i); 
         arr0.push(mouseOver);
         arr1.push(mouseOut);
         arr2.push(mouseClick);
